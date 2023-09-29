@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*,
+body,
+html {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to left top, #224c5c, #005f6a, #00726c, #0a8462, #4a934e);
+    background-position: center;
+    background-size: cover;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+}
+
+hr {
+    border: 1px solid rgba(211, 211, 211, 0.15);
+}
+
+section {
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+h2 {
+    color: #fff;
+    font-size: 24px;
+}
+
+h3 {
+    color: #fff;
+}
+
+section p {
+    color: lightgray;
+    padding: 4px;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #4a934e;
+    color: white;
+    border: none;
+}
+
+.beneficios {
+    background-color: #4a4f4b54;
+    width: 100%;
+}
+
+.beneficios div {
+    margin-top: 20px;
+}
+
+.valor img {
+    position: absolute;
+    margin-left: 22px;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
